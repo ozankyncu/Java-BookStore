@@ -21,7 +21,7 @@ public class DBConnection {
   public void connect()  {
     try {
       Class.forName("org.sqlite.JDBC");
-      jdbcConnection = DriverManager.getConnection("jdbc:sqlite:book_store.db");
+      jdbcConnection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\BUSRA MUMCU\\Documents\\GitHub\\Java-BookStore\\book_store.db");
       System.out.println("Opened database successfully");
 
       createTableIfNotExists();
